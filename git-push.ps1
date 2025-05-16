@@ -17,3 +17,6 @@ Write-Host "Degisiklikler push ediliyor..." -ForegroundColor Magenta
 git push origin main
 
 Write-Host "Tum islemler tamamlandi!" -ForegroundColor Cyan
+
+Set-Alias gpush C:\Users\ensko\vscodeProjects\python\Fundamentals\git-push.ps1
+# Usage: gpush "Your commit message"
