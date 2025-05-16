@@ -53,5 +53,3 @@ usluSayilar2 = 3
 usluSayilar = usluSayilar1 ** usluSayilar2
 print(usluSayilar) # sonuç 1000 olacaktır ve burada a ile b değişkeni üslü sayılar olarak hesaplandıktan sonra sonuç c değişkenine atanmaktadır.
 
-
-# push testi yapıyorum
