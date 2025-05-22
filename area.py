@@ -43,7 +43,7 @@ Daire alanı:
 #* circleArea = pi * radius ** 2
 #* burada pi sayısını kendimiz tanımlayabiliriz ama python'da math modülünde pi sayısı tanımlı olduğu için onu da deneyelim.
 
-#pi = 3.14
+#pi = 3.14 (math kütüphanesini kullanmazsak pi sayısını kendimiz tanımlayabiliriz ama bu durumda pi sayısının tam değerini kullanamayız.)
 radius = int(input("Yarıçap: "))
 print("Yarıçap:", radius, " Alan:", math.pi * radius ** 2)
 
