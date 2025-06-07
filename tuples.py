@@ -1,5 +1,5 @@
 tuple_example = (1, 2, 3, 4, 5)
-#! Tuples, Python'da değiştirilemez (immutable) veri tipleridir ve köşeli parantezler yerine normal parantezler () ile tanımlanır.
+# Tuples, Python'da değiştirilemez (immutable) veri tipleridir ve köşeli parantezler yerine normal parantezler () ile tanımlanır.
 
 # Accessing elements in a tuple
 first_element = tuple_example[0]

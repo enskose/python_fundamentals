@@ -50,9 +50,8 @@ print("Yarıçap:", radius, " Alan:", math.pi * radius ** 2)
 
 '''
 
-# burada bir alan hesaplamasından ziyade km'yi mile çevirme işlemi yapacağız.
 
-'''
+''' burada bir alan hesaplamasından ziyade km'yi mile çevirme işlemi yapacağız.
 # 1 km = 0.621371 mile
 # 1 mile = 1.60934 km
 
