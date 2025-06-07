@@ -1,5 +1,5 @@
 
-#* if - else - elif 
+# if - else - elif 
 '''
 x = int(input("1. Sayı: "))
 y = int(input("2. Sayı: ")) 
@@ -15,7 +15,7 @@ else:
 
 '''
 
-#* fonksiyon kullanarak yazdığım biraz daha gelişmiş bir örnek
+# fonksiyon kullanarak yazdığım biraz daha gelişmiş bir örnek
 
 
 y = int(input("Bir sayı giriniz: "))

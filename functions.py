@@ -1,16 +1,16 @@
 # Fonksiyonlar, kodu tekrar tekrar yazmamak için kullanılır.
 
-#* "def" yazarak fonksiyon oluşturuyoruz.
-#* Fonksiyonlara istersek dışarıdan bilgi (parametre) verebiliriz.
-#* Fonksiyonlar bazen bize bir sonuç (return) döndürebilir.
+# "def" yazarak fonksiyon oluşturuyoruz.
+# Fonksiyonlara istersek dışarıdan bilgi (parametre) verebiliriz.
+# Fonksiyonlar bazen bize bir sonuç (return) döndürebilir.
 '''
 def fonksiyon_adi(parametre1, parametre2):
-    #* Burada fonksiyonun yapmasını istediğimiz işlemleri yazıyoruz
+    # Burada fonksiyonun yapmasını istediğimiz işlemleri yazıyoruz
     return parametre1 + parametre2
 
-#* Fonksiyonu çağırırken adını ve gerekli bilgileri yazıyoruz:
+# Fonksiyonu çağırırken adını ve gerekli bilgileri yazıyoruz:
 sonuc = fonksiyon_adi(3, 5)
-print(sonuc)  #* Burada ekrana 8 yazdırılır
+print(sonuc)  # Burada ekrana 8 yazdırılır
 
 '''
 
@@ -25,7 +25,7 @@ exponentiation_exp_2(5)
 
 '''
 
-#* Fonksiyonlar, kodu daha düzenli ve tekrar kullanılabilir hale getirir.
+# Fonksiyonlar, kodu daha düzenli ve tekrar kullanılabilir hale getirir.
 def wage(w_hours):
     return w_hours * 20
 
@@ -35,7 +35,7 @@ def bonus(w_hours):
 print("Wage for 8 hours:", wage(8), "Bonus:", bonus(8))
 
 '''
-#* _________________________________________________________________________________________________ *# 
+# _________________________________________________________________________________________________ *# 
 
 '''
 def plus_five(x):
@@ -49,7 +49,7 @@ print(result)
 
 '''
 
-#* Fonksiyonlarda if-else yapısı kullanma
+# Fonksiyonlarda if-else yapısı kullanma
 '''
 def add_10(m):
     if m >= 100:
@@ -62,7 +62,7 @@ add_10(50)
 
 '''
 
-#* Birden fazla parametreye sahip fonksiyonlar
+# Birden fazla parametreye sahip fonksiyonlar
 '''
 def subtract_bc(a, b, c):
     result = a - b * c
@@ -75,12 +75,12 @@ def subtract_bc(a, b, c):
 subtract_bc(10, 3, 2)
 '''
 
-#* built-in fonksiyonlar
+# built-in fonksiyonlar
 
-#* Create a function, called distance_from_zero(), that returns the absolute value of a provided 
-#* single argument and prints a statement "Not possible" if the argument provided is not a number. To solve the task, 
-#* use the type() function in the body of distance_from_zero().
-#* Call the function with the values of -10 and "cat" to verify it works correctly. 
+# Create a function, called distance_from_zero(), that returns the absolute value of a provided 
+# single argument and prints a statement "Not possible" if the argument provided is not a number. To solve the task, 
+# use the type() function in the body of distance_from_zero().
+# Call the function with the values of -10 and "cat" to verify it works correctly. 
 
 def distance_from_zero(arg):
     if type(arg) == int:
